@@ -9,8 +9,8 @@ public class Example
         Console.Clear();
         s = Console.ReadLine();
         
-        for (int i = 0; i < s.Length; i++) {
-            Console.WriteLine(s[i]);
+        foreach (char c in s) {
+            Console.WriteLine(c);
         }
     }
 }
