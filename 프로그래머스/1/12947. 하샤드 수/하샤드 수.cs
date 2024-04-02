@@ -4,10 +4,6 @@ public class Solution {
         string str = x.ToString();
         int num = 0;
         
-        // foreach (char i in str) {
-        //     num += int.Parse(i);
-        // }
-        
         for (int i = 0; i < str.Length; i++) {
             num += int.Parse(str[i].ToString());
         }
