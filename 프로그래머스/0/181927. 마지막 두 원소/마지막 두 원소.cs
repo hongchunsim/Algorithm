@@ -6,9 +6,7 @@ public class Solution {
         int size = num_list.Length;
         int[] answer = new int[size+1];
         
-        for (int i = 0; i < size; i++) {
-            answer[i] = num_list[i];
-        }
+        Array.Copy(num_list, answer, size);
         
         answer[size] = num_list[size-1] > num_list[size-2] ? num_list[size-1] - num_list[size-2] : num_list[size-1] * 2;
         
