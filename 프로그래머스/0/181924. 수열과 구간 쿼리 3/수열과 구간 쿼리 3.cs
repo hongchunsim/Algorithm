@@ -2,7 +2,6 @@ using System;
 
 public class Solution {
     public int[] solution(int[] arr, int[,] queries) {
-        int[] answer = new int[] {};
         int temp;
         
         for(int i = 0; i < queries.GetLength(0); i++) {
