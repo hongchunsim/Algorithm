@@ -9,6 +9,7 @@ public class Solution {
                     arr[j]++;
             }
         }
+        
         return arr;
     }
 }
